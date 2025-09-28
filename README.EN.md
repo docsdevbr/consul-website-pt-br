@@ -1,4 +1,4 @@
-# [consul-doc-pt-br][page]
+# [consul-website-pt-br][page]
 
 [![README file in English][badge-readme-en]][readme-en]
 [![README file in Brazilian Portuguese][badge-readme-pt-br]][readme-pt-br]
@@ -6,7 +6,7 @@
 [![Contributors][badge-contributors]][contributors]
 [![GitHub Sponsors][badge-github-sponsors]][github-sponsors]
 
-Translation of the Consul Documentation into Brazilian Portuguese.
+Translation of the Consul website into Brazilian Portuguese.
 
 ## Contributing
 
@@ -34,7 +34,7 @@ Documentation licensed under the
 [Business Source License, Version 1.1][license].<br>
 The original work was translated from English into Brazilian Portuguese.
 
-[badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/consul-doc-pt-br
+[badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/consul-website-pt-br
 
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
 
@@ -48,16 +48,16 @@ The original work was translated from English into Brazilian Portuguese.
 
 [contributing]: https://github.com/docsdevbr/.github/blob/main/CONTRIBUTING.EN.md
 
-[contributors]: https://github.com/docsdevbr/consul-doc-pt-br/graphs/contributors
+[contributors]: https://github.com/docsdevbr/consul-website-pt-br/graphs/contributors
 
 [github-sponsors]: https://github.com/sponsors/docsdevbr
 
 [license]: LICENSE
 
-[page]: https://docs.dev.br/docs/consul/doc/
+[page]: https://pt.docs.dev.br/p/consul/
 
 [readme-en]: README.EN.md
 
 [readme-pt-br]: README.md
 
-[sponsor]: https://docs.dev.br/apoie-o-projeto
+[sponsor]: https://pt.docs.dev.br/sponsor
