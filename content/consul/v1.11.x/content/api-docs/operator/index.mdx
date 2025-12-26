@@ -1,0 +1,30 @@
+---
+# Copyright (c) 2024 HashiCorp, Inc.
+# Consul and the Consul logo are trademarks of HashiCorp.
+#
+# Documentation licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/hashicorp/consul/blob/-/LICENSE
+
+layout: api
+page_title: Operator - HTTP API
+description: |-
+  The /operator endpoints provide cluster-level tools for Consul operators,
+  such as interacting with the Raft subsystem.
+---
+
+# Operator HTTP Endpoint
+
+The `/operator` endpoints provide cluster-level tools for Consul operators,
+such as interacting with the Raft subsystem. For a CLI to perform these
+operations manually, please check the documentation for the
+[`consul operator`](/commands/operator) command.
+
+If ACLs are enabled then a token with operator privileges may be required in
+order to use this interface. Check the [ACL Rules documentation](/docs/security/acl/acl-rules#operator-rules)
+for more information.
+
+Check the [Outage Recovery](https://learn.hashicorp.com/tutorials/consul/recovery-outage) tutorial for some examples of
+how these capabilities are used.
+
+Please choose a sub-section in the navigation for more information.

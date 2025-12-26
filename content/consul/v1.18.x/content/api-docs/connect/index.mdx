@@ -1,0 +1,33 @@
+---
+# Copyright (c) 2024 HashiCorp, Inc.
+# Consul and the Consul logo are trademarks of HashiCorp.
+#
+# Documentation licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/hashicorp/consul/blob/-/LICENSE
+
+layout: api
+page_title: Connect - HTTP API
+description: >-
+  The `/connect` endpoints provide access to service mesh-related operations for
+  intentions and the certificate authority.
+---
+
+# Connect HTTP Endpoint
+
+The `/connect` endpoints provide access to
+[service mesh-related](/consul/docs/connect) operations for
+intentions and the certificate authority.
+
+There are also service mesh-related endpoints in the
+[Agent](/consul/api-docs/agent) and [Catalog](/consul/api-docs/catalog) APIs. For example,
+the API for requesting a TLS certificate for a service is part of the agent
+APIs. And the catalog API has an endpoint for finding all mesh-capable
+services in the catalog.
+
+The noun _connect_ is used throughout this documentation to refer to the connect
+subsystem that provides Consul's service mesh capabilities.
+Where you encounter the _noun_ connect, it is usually functionality specific to
+service mesh.
+
+Please choose a sub-section in the navigation for more information.

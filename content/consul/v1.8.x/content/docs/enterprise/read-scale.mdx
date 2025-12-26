@@ -1,0 +1,34 @@
+---
+# Copyright (c) 2024 HashiCorp, Inc.
+# Consul and the Consul logo are trademarks of HashiCorp.
+#
+# Documentation licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/hashicorp/consul/blob/-/LICENSE
+
+layout: docs
+page_title: Consul Enterprise Enhanced Read Scalability
+sidebar_title: Enhanced Read Scalability
+description: >-
+  Consul Enterprise supports increased read scalability without impacting write
+  latency by introducing
+
+  non-voting servers.
+---
+
+# Enhanced Read Scalability with Non-Voting Servers
+
+<EnterpriseAlert>
+  This feature requires{' '}
+  <a href="https://www.hashicorp.com/products/consul/">Consul Enterprise</a>{' '}
+  with the Global Visibility, Routing, and Scale module.
+</EnterpriseAlert>
+
+Consul Enterprise provides the ability to scale clustered Consul servers
+to include voting and non-voting servers. Non-voting servers still receive data from the cluster replication,
+however, they do not take part in quorum election operations. Expanding your Consul cluster in this way can scale
+reads without impacting write latency.
+
+For more details, review the [Consul server configuration](/docs/agent/options)
+documentation and the [-non-voting-server](/docs/agent/options#_non_voting_server)
+configuration flag.

@@ -1,0 +1,43 @@
+---
+# Copyright (c) 2024 HashiCorp, Inc.
+# Consul and the Consul logo are trademarks of HashiCorp.
+#
+# Documentation licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/hashicorp/consul/blob/-/LICENSE
+
+layout: commands
+page_title: 'Commands: Config Delete'
+---
+
+# Consul Config Delete
+
+Command: `consul config delete`
+
+The `config delete` command deletes the configuration entry specified by the
+kind and name. See the [configuration entries docs](/docs/agent/config-entries)
+for more details about configuration entries.
+
+## Usage
+
+Usage: `consul config delete [options]`
+
+#### API Options
+
+@include 'http_api_options_client.mdx'
+
+#### Enterprise Options
+
+@include 'http_api_namespace_options.mdx'
+
+#### Config Delete Options
+
+- `-kind` - Specifies the kind of the config entry to read.
+
+- `-name` - Specifies the name of the config entry to delete. The name of the
+  `proxy-defaults` config entry must be `global`, and the name of the `mesh`
+  config entry must be `mesh`.
+
+## Examples
+
+    $ consul config delete -kind service-defaults -name web
